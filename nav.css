@@ -1,0 +1,30 @@
+header{
+    padding:30px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content:space-between ;
+   
+}
+li{
+    list-style: none;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+h2{
+    color:#ffffff;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
