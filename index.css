@@ -3,14 +3,14 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-color: #2F2D2D;
 }
 .background{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 80vh;
-    background-color: black;
+    background-color: #2F2D2D;
     padding-top: 20px;
     justify-content: space-between;
 }
@@ -26,7 +26,7 @@ p{
     color: #ffff;
     font-size: 23px;
 }
-.background  div:first-child{
+.background  div:last-child{
     flex: 1;
     display:flex ;
     flex-direction: column;
@@ -43,12 +43,13 @@ p{
     color: white;
     margin-top: 50px;
     /* border: #84b86b; */
-    background-color: #84b86b;
+    background-color: #34A853;
     border-radius: 5px;
     padding: 5px 20px;
 
 }
 span{
+    color:#34A853;
     font-weight: bolder;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
