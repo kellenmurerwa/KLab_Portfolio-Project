@@ -31,6 +31,7 @@ p {
     padding: 30px;
 }
 
+
 .about div:first-child {
     flex: 1;
     display: flex;
@@ -58,7 +59,7 @@ p {
 
 
 footer {
-    background-color: gray;
+    background-color: black;
     /* height: 10vh; */
     padding: 1rem 0;
     

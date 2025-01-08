@@ -28,7 +28,8 @@ p {
     padding: 30px;
 }
 h3{
-    
+    color: #34A853;
+    font-size: 50px;
 }
 .project-container div:first-child {
     flex: 1;
@@ -46,7 +47,7 @@ h3{
 
 
 footer {
-    background-color: gray;
+    background-color: black;
     /* height: 10vh; */
     padding: 1rem 0;
     
