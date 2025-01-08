@@ -26,32 +26,35 @@
     </header>
 
     <div class="contacts-container">
-        <div class="contacts"></div>
-        <div class="cont-form">
-            <h3>Contact Me</h3>
-            <form>
-                <div class="form-input">
-                    <label>Names</label>
-                    <input type="text" placeholder="Enter your both names" />
-                </div>
-                <div class="form-input">
-                    <label>Email</label>
-                    <input type="email" placeholder="Enter your Email" />
-                </div>
-                <div class="form-input">
-                    <label>Tel</label>
-                    <input type="tel" placeholder="Enter your phone number" />
-                </div>
-                <div class="form-input">
-                    <label>Message</label>
-
-                    <textarea name="Message"  placeholder="Enter your message" rows="4"></textarea>
-                </div>
-            </form>
-            <button type="submit">Submit</button>
+        <div class="contacts">
+            <div class="contact-details">
+                <img src="./images/contacts.jpg" alt="Contact Image">
+                <p><span>Tel</span><br>+250781386451</p>
+                <p><span>Address</span><br>Gasabo, Kigali</p>
+                <p><span>Email</span><br><a href="mailto:kellenmurerwa724@gmail.com">kellenmurerwa724@gmail.com</a></p>
+            </div>
+    
+            <div class="cont-form">
+                <h3>Contact Me</h3>
+                <form>
+                    <div class="form-input">
+                        <label for="name">Names</label>
+                        <input type="text" id="name" placeholder="Enter your full names" required />
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your Email" required />
+                    </div>
+                    <div class="form-input">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Enter your message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
-
+    
 
     <footer class="social-icons">
 
