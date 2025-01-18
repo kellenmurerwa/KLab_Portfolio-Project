@@ -1,11 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #2F2D2D;
 }
-.background{
+
+
+.background {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -13,46 +16,105 @@ body{
     background-color: #2F2D2D;
     padding-top: 20px;
     justify-content: space-between;
+    gap: 20px;
 }
 
-img{
-    width:100%;
+
+img {
+    width: 100%;
     height: 100%;
-    
+    object-fit: cover;
 }
 
-p{
-   line-height: 30px;
+
+p {
+    line-height: 30px;
     color: #ffff;
     font-size: 23px;
 }
-.background  div:last-child{
+
+
+.background div:last-child {
     flex: 1;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 40%;
 }
 
-.background div:last-child{
-    width: 40%;
-    
-}
-.background a{
+
+.background a {
     text-decoration: none;
     color: white;
     margin-top: 50px;
-    /* border: #84b86b; */
     background-color: #34A853;
     border-radius: 5px;
     padding: 5px 20px;
-
+    transition: background-color 0.3s ease;
 }
-span{
-    color:#34A853;
+
+.background a:hover {
+    background-color: #287a3d;
+}
+
+
+span {
+    color: #34A853;
     font-weight: bolder;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
+
+/* Medium Screens (up to 768px) */
+@media (max-width: 768px) {
+    .background {
+        flex-direction: column; 
+        align-items: center; 
+        height: auto; 
+        gap: 30px; 
+    }
+
+    .background div:last-child {
+        width: 80%; 
+        text-align: center; 
+    }
+
+    p {
+        font-size: 20px; 
+        line-height: 28px;
+    }
+
+    .background a {
+        font-size: 16px; 
+        padding: 10px 30px;
+    }
+}
+
+/* Small Screens (up to 480px) */
+@media (max-width: 480px) {
+    .background div:last-child {
+        width: 100%; 
+    }
+
+    img {
+        width: 100%;
+        height: auto; 
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px; 
+    }
+
+    .background a {
+        font-size: 14px; 
+        padding: 8px 20px; 
+    }
+
+    span {
+        font-size: medium; 
+    }
+}
