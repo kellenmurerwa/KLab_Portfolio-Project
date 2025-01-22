@@ -89,10 +89,12 @@ body {
 .cont-form form {
     display: flex;
     flex-direction: column;
+    margin: 50px;
 }
 
 .form-input {
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .form-input label {
