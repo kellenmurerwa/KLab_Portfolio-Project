@@ -94,7 +94,7 @@ body {
 
 .form-input {
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .form-input label {
